@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 1 Fechando title com head-->
+  <title>DevTask - Meu Painel de Estudos</title>
+<body>
+    <!-- 2 header escrito errado-->
+  <header>
+    <!-- 3 Não fechou o comentário-->
+<!-- 4 Faltou fechar a TAG </h1> e foi corrigida-->
+    <h1>DevTask 🚀</h1>
+    <p>Organize suas tarefas de programação e estudos</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nova Tarefa</h2>
+      
+      <from id="form-tarefa">
+        <div>
+          <label for="titulo">Título da Tarefa:</label>
+          <!-- 5 Faltou as aspas na palavra título-->
+          <input type="text" id="titulo" placeholder="Ex: Estudar Selectors em CSS">
+        </div>
+
+        <div>
+            <!-- tem um R a mais no for-->
+          <label for="categoria">Categoria:</label>
+          <select id="categoria">
+            <option value="HTML">HTML</option>
+            <!-- 6 Fala o I no options-->
+            <option value="CSS">CSS</option>
+                <!-- 7 Falta fechar o option-->
+            <option value="JavaScript">JavaScript</option>
+          </select>
+        </div>
+        
+        <!-- 8 Button escrito com O ao invés de U-->
+        <button type="submit">Cadastrar Tarefa</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Minhas Tarefas</h2>
+      
+      <div id="lista-tarefas">
+        
+        <article>
+          <h3>Aprender Tags Estruturais do HTML</h3>
+          <p><strong>Categoria:</strong> HTML</p>
+          <p><strong>Status:</strong> Pendente</p>
+          <button type="button">Concluir</button>
+          <!-- 9 Falta o texto no botão "excluir"-->
+          <button type="button"></button>
+        </article>
+
+        <!--10 Faltou abrir a tag article -->
+        <article>
+          <h3>Criar a Primeira Estrutura do Projeto</h3>
+          <p><strong>Categoria:</strong> HTML</p>
+          <p><strong>Status:</strong> Concluído</p>
+          <button type="button">Concluir</button>
+          <button type="button">Excluir</button>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Curso Técnico em Informática para Internet • Front-end 2026</p>
+    <!-- 11 Fechando a tag footer com header-->
+  </footer>
+  <!-- 12 Sem fechamento da tag body-->
+  </body>
+</html>

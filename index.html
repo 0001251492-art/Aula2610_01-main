@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineDev - Meu catálogo de filmes e séries</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>CineDev 🚀</h1>
+    <p>O cinema que você merece!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Formulário de Cadastro:</h2>
+      
+      <form id="form-tarefa">
+        <div>
+          <label for="titulo">Título do Filme:</label>
+          <input type="text" id="titulo" placeholder="Ex: O Máscara">
+        </div>
+
+        <div class="div2">
+          <label for="categoria">Categoria:</label>
+          <select id="categoria">
+            <option value="HTML">Ação</option>
+            <option value="CSS">Comédia</option>
+            <option value="JavaScript">Anime</option>
+          </select>
+        </div>
+
+        <button type="submit">Cadastrar Título</button>
+      </form>
+    </section>
+
+    <hr>
+
+    <section>
+      <h2>Filmes:</h2>
+      
+      <div id="lista-tarefas">
+        
+        <article>
+          <h3>O Máscara</h3>
+          <p><strong>Categoria: Comédia</strong></p>
+          <p><strong>Status: Pendente</strong></p>
+          <button type="button" class="watched">Assistido</button>
+          <button type="button" class="excluir">Excluir</button>
+        </article>
+
+        <article>
+          <h3>Viva, A vida é uma festa!</h3>
+          <p><strong>Categoria: Animação</strong></p>
+          <p><strong>Status: Pendente</strong></p>
+          <button type="button" class="watched">Assistido</button>
+          <button type="button" class="excluir">Excluir</button>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>CineDev App • Front-end 2026</p>
+  </footer>
+</body>
+</html>
